@@ -78,8 +78,8 @@
 #define CTRL3	0x5B 	//System Control Register 3
 
 // =============== TQ12 I2C Chip Slave Address ================================================
-#define TQ12_ID_GND  0x68 //7bit address: 8bit address 0xD0<<1 //ID_SEL Pin = GND (Default)
-#define TQ12_ID_VDD  0x78 //7bit address: 8bit address 0xF0<<1 //ID_SEL Pin = VDD
+#define TQ12_ID_GND  0x68 //7bit address: 8bit address 0xD0>>1 //ID_SEL Pin = GND (Default)
+#define TQ12_ID_VDD  0x78 //7bit address: 8bit address 0xF0>>1 //ID_SEL Pin = VDD
 
 void  Init_TQ12(void); //Initialize TQ12
 
